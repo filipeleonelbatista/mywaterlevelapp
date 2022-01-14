@@ -5,7 +5,8 @@
 
 - [Sobre](#-sobre)
 - [Tecnologias](#Tecnologias)
-- [Download](#Download)
+- [Dispositivos](#Dispositivos)
+- [Sketch](#Sketch)
 - [Como baixar o projeto](#-como-baixar-o-projeto)
 
 ## 🔖&nbsp; Sobre
@@ -14,8 +15,8 @@ Projeto desenvolvido para monitorar o volume da caixa d' água. Dividido em 4 su
 
  * Projeto independente mostrando em um visor o volume da água. [Finalizado]
  * Projeto web mostrando em um site instalado internamente no chip o volume da água e estimativa em litros. Funciona apenas na rede local. [Finalizado]
- * Projeto web envia os dados coletados para uma api que alimenta uma aplicação ReactJS para apresentar relatórios do momento atual da caixa d' água e o consumo mensal, semanal e diario da mesma. Funciona online.
- * Projeto web envia os dados coletados para uma api que alimenta uma aplicação ReactJS e aplicativo para smartphones para apresentar relatórios do momento atual da caixa d' água e o consumo mensal, semanal e diario da mesma.Funciona online.
+ * Projeto web envia os dados coletados que alimentam uma aplicação ReactJS para apresentar relatórios do momento atual da caixa d' água e o consumo mensal, semanal e diario da mesma. Funciona online.
+ * Projeto web envia os dados coletados que alimentam uma aplicação ReactJS e aplicativo para smartphones para apresentar relatórios do momento atual da caixa d' água e o consumo mensal, semanal e diario da mesma.Funciona online.
 
 ---
 ## Tecnologias
@@ -27,8 +28,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Arduino IDE](https://www.arduino.cc/)
 - [Node.js](https://nodejs.org/en/)
 - [React](https://reactjs.org)
-- [React Native](https://facebook.github.io/react-native/)
-- [Expo](https://expo.io/)
+- [Firebase](https://firebase.google.com/)
+<!-- - [React Native](https://facebook.github.io/react-native/) -->
+<!-- - [Expo](https://expo.io/) -->
 
 ## Dispositivos
 
@@ -36,14 +38,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [HC-SR04]()
 - [Modulo IC2 Com display LCD]()
 
----
-## Download (EM BREVE)
+## Sketch
 
-<p>
-    <a href="#">
-        <img width="150" src="./.github/android.svg">
-    </a>
-</p>
+<img width="100%" src=".github/sketch.png">
 
 ---
 
