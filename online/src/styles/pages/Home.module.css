@@ -63,6 +63,7 @@
 }
 
 .inputGroup button{
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -92,4 +93,39 @@
 .inputGroup button > img{
   width: 18px;
   margin-right: 0.8rem;
+}
+
+.footer{
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  background-color: #FFF;
+}
+
+.footer > img{
+  width: 100%;
+  height: auto;
+}
+
+.footerLogo > img{
+  width: 15rem;
+  height: auto;
+}
+
+.footerLinks{  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  padding: 1.4rem;
+}
+
+.footerLinks a > img{
+  width: 2.4rem;
+  height: auto;
 }
