@@ -1,0 +1,118 @@
+.container{
+    width: 100%;
+    padding: 0.8rem 1.4rem;
+    background: #FFF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.4rem;
+
+}
+
+.container > img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.container > button{
+    background: none;
+    border: none;
+    width: 64px;
+    height: 64px;
+    font-size: 0;
+}
+
+.container > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0.8rem;
+}
+
+.container > div strong{
+    padding: 0 0.8rem;
+    text-align: center;
+}
+
+.votesContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.votesContainer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.votesContainer div span{
+    padding: 0.5rem;
+}
+
+.btnCobra,
+.btnVomito,
+.btnSorriso,
+.btnTriste,
+.btnBomba,
+.btnCoracao,
+.btnCoracaoPartido,
+.btnBanana,
+.btnPlanta{    
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnCobra img,
+.btnVomito img,
+.btnSorriso img,
+.btnTriste img,
+.btnBomba img,
+.btnCoracao img,
+.btnCoracaoPartido img,
+.btnBanana img,
+.btnPlanta img{
+    width: 15px;
+    height: 15px;
+}
+
+.btnCobra{
+    background-color: #0E473B;
+}
+.btnVomito{
+    background-color: #96952E;
+}
+.btnSorriso{
+    background-color: #F5AF31;
+}
+.btnTriste{
+    background-color: #7B0C18;
+}
+.btnBomba{
+    background-color: #383838;
+}
+.btnCoracao{
+    background-color: #E13259;
+}
+.btnCoracaoPartido{
+    background-color: #6F1D66;
+}
+.btnBanana{
+    background-color: #D8D323;
+}
+.btnPlanta{
+    background-color: #15C02F;
+}
+

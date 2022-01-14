@@ -1,0 +1,86 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.4rem;
+  background: linear-gradient(72.03deg, #FF5155 0%, #FFC006 100%);
+}
+
+.logoImage{  
+  width: 100%;
+  height: auto;
+  background-image: url("/images/speedometer.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2.8rem;
+}
+
+.container main > img{
+  width: 350px;
+}
+
+.container main h1{
+  color: #FFF;
+}
+.gitHubContainer{  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.4rem 0;
+}
+
+.gitHubContainer img{
+  width: 50px;
+  margin-right: 0.8rem;
+}
+
+.gitHubContainer p{
+  color: #FFF;
+  max-width: 250px;
+}
+
+.inputGroup{  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.8rem 0;
+}
+
+.inputGroup input{
+  height: 3.6rem;
+  width: 250px;
+  padding: 0 0.8rem;
+  border-radius: 0.4rem 0 0 0.4rem;
+  border: none;
+}
+
+.inputGroup button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #FF524D;
+
+  height: 3.6rem;
+  width: 3.6rem;
+  border-radius: 0 0.4rem 0.4rem 0;
+  border: none;
+  transition: 0.2s;
+}
+
+.inputGroup button:hover{
+  filter: brightness(1.4)
+}
+
+.inputGroup button > img{
+  width: 18px;
+}
