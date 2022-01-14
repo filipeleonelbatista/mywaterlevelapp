@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.4rem;
-  background: linear-gradient(72.03deg, #FF5155 0%, #FFC006 100%);
+  background: linear-gradient(0deg, #1559B3 0%, #0ED7F3 100%);
 }
 
 .logoImage{  
@@ -68,11 +68,19 @@
   align-items: center;
   justify-content: center;
 
-  background-color: #FF524D;
+  background-color: #1559B3;
+
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 600;
+
+  padding: 0.8rem 1.4rem;
 
   height: 3.6rem;
-  width: 3.6rem;
-  border-radius: 0 0.4rem 0.4rem 0;
+  width: 100%;
+  max-width: 400px;
+
+  border-radius:0.4rem;
   border: none;
   transition: 0.2s;
 }
@@ -83,4 +91,5 @@
 
 .inputGroup button > img{
   width: 18px;
+  margin-right: 0.8rem;
 }
