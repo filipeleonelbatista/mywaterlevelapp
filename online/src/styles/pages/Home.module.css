@@ -10,7 +10,7 @@
 .logoImage{  
   width: 100%;
   height: auto;
-  background-image: url("/images/speedometer.png");
+  background-image: url("../../../public/images/speedometer.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;

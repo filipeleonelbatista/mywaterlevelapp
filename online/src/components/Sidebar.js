@@ -1,30 +1,24 @@
 
 import styles from '../styles/components/Sidebar.module.css';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
+import {NavLink, useLocation} from 'react-router-dom';
 
 export default function Sidebar() {
-    const router = useRouter();
+    const router = useLocation();
     return (
         <aside className={styles.container}>
             <img src="/images/speedometer-white.png" alt="Queridometro.dev" />
             <div className={styles.menu}>
-                <Link href="/principal">
-                    <div className={(router.pathname === "/principal") ? styles.activedDiv : ''}>
-                        <img src="/images/home.svg" alt="Principal" />
+                <NavLink href="/Dashboard">
+                    <div className={(router.pathname === "/Dashboard") ? styles.activedDiv : ''}>
+                        <img src="/images/home.svg" alt="Dashboard" />
                     </div>
-                </Link>
-                <Link href="/pontos">
-                    <div className={(router.pathname === "/pontos") ? styles.activedDiv : ''}>
-                        <img src="/images/award.svg" alt="Pontuação" />
-                    </div>
-                </Link>
+                </NavLink>
             </div>
-            <Link href="/">
+            <NavLink href="/">
                 <div className={styles.exitButton}>
                     <img src="/images/log-out.svg" alt="Sair" />
                 </div>
-            </Link>
+            </NavLink>
         </aside>
     );
 }
